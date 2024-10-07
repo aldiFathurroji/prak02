@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h2 {
+            color: #1a73e8;
+            margin-bottom: 10px;
+        }
+
+        .about, .projects, .contact {
+            margin-bottom: 20px;
+        }
+
+        .projects ul {
+            list-style-type: none;
+        }
+
+        .projects li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="avatar.png" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="about">
+            <h2>About Me</h2>
+            <p>A passionate individual with a love for Music. Skilled in Backend Developments.</p>
+        </div>
+        <div class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Project 1 Title</a> - Brief description of Project 1.</li>
+                <li><a href="#">Project 2 Title</a> - Brief description of Project 2.</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:budionosiregarl@kapallawd.com">budionosiregarl@kapallawd.com</a></p>
+            <p>LinkedIn: <a href="#">Budiono Siregar</a></p>
+        </div>
+    </div>
+</body>
+</html>
